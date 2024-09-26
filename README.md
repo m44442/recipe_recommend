@@ -1,15 +1,21 @@
 # レシピとドリンクレコメンダーアプリ
-このアプリケーションは、冷蔵庫の中身を入力するとそれだけを使った料理とそれに合うお酒を提案します。
+このアプリケーションは、冷蔵庫の中身を入力するとそれだけを使った料理とそれに合う飲み物を提案します。
 
 ## 機能
 - 食材リストの入力
 - レシピの提案
 - お酒の提案
 ## 技術スタック
-- バックエンド: python, flask
-- フロントエンド: TypeScript, Next.js, css
-- API: OpenAI GPT-3
-- 環境: Docker
+- Webサーバー: Nginx
+- エディタ: Visual Studio Code
+- 環境構築: Docker
+- バックエンド: Python, Flask, Google Gemini API, Gunicorn
+- フロントエンド: Typescript, React, Next.js, HTML, CSS
+- データフォーマット: JSON
+- ホスティング: AWS EC2
+- セキュリティ/リクエスト管理: CORS
+- バージョン管理: Git
+
 
 ## セットアップ手順
 (ここにセットアップ手順を記述)

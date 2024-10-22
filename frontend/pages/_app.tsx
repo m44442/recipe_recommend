@@ -8,7 +8,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       {/* Head コンポーネント：ページのメタデータを設定 */}
       <Head>
         <title>グルメアシスタント</title>
-        {/* 必要に応じて、ここに他のメタタグ（description, viewport など）を追加 */}
       </Head>
 
       {/* アプリケーションのメインコンテナ */}

@@ -36,7 +36,6 @@ export default function Home() {
     setError('')
     
     try {
-      // ここでエンドポイントを '/api/recommend' に修正
       const response = await axios.post('/api/recommend', { ingredients })
       setRecipe(response.data.recipe)
       setDrink(response.data.drink)

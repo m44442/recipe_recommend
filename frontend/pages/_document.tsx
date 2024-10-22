@@ -11,9 +11,7 @@ class MyDocument extends Document {
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         </Head>
         <body>
-          {/* Mainコンポーネント：ページコンテンツがここに挿入される */}
           <Main />
-          {/* NextScriptコンポーネント：Next.jsが必要とするスクリプトを挿入 */}
           <NextScript />
         </body>
       </Html>

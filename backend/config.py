@@ -17,10 +17,10 @@ DATABASE_URI = os.getenv('DATABASE_URI', 'sqlite:///app.db')
 MAX_INGREDIENTS = int(os.getenv('MAX_INGREDIENTS', '10'))
 DEFAULT_LANGUAGE = os.getenv('DEFAULT_LANGUAGE', 'ja')
 
-# APIのベースURL（開発環境と本番環境で異なる場合）
+# APIのベースURL
 API_BASE_URL = os.getenv('API_BASE_URL', 'http://backend:5002/api/recommend')
 
-# Gemini APIの設定（必要に応じて）
+# Gemini APIの設定
 GEMINI_MODEL = os.getenv('GEMINI_MODEL', 'gemini-pro')
 
 # 設定が正しく読み込まれているか確認
